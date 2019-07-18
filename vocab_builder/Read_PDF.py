@@ -1,4 +1,5 @@
 import PyPDF2
+
 pdf_file = open('D:\MyFolder\My books\magoosh-gre-1000-words.pdf', 'rb')
 read_pdf = PyPDF2.PdfFileReader(pdf_file)
 number_of_pages = read_pdf.getNumPages()
